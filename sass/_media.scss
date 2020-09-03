@@ -1,0 +1,253 @@
+// Medium and below
+
+@media (max-width: 720px) {
+  // Header
+  #header {
+    height: 95vh;
+    .navbar {
+      &-brand {
+        font-size: 1rem;
+      }
+      ul {
+        li {
+          a {
+            font-size: 0.8rem;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .header-content {
+      font-family: "Roboto Condensed", sans-serif;
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      h5 {
+        font-size: 1rem;
+      }
+
+      h1 {
+        &:first-of-type {
+          font-weight: 300;
+          font-size: 2.4rem;
+        }
+        &:last-of-type {
+          margin-top: -0.6rem;
+        }
+
+        &:last-of-type span {
+          font-size: 2.4rem;
+        }
+      }
+
+      a {
+        border-radius: 0;
+        border: #eee 2px solid;
+        font-size: 1rem;
+        font-weight: 300;
+      }
+    }
+  }
+
+  // Homes
+  #homesForSale {
+    margin-top: 2.2rem;
+
+    .home-cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 1rem;
+    }
+  }
+
+  // Profile
+  #profile {
+    margin-top: 4.4rem;
+  }
+
+  // Testimonials
+  #testimonials {
+    margin-top: 3.6rem;
+
+    h4 {
+      font-size: 1.4rem;
+    }
+
+    h3 {
+      font-size: 2.8rem;
+    }
+
+    .carousel-content-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: space-between;
+      grid-gap: 2rem;
+    }
+  }
+  // Purchase
+  #purchase {
+    background: $color-secondary;
+    margin-top: 3.6rem;
+
+    .purchase-content {
+      display: grid;
+      grid-template-columns: none;
+      grid-template-rows: 1fr 1fr;
+
+      .purchase-content-img-1 {
+        background: url("../../imgs/purchase.png") no-repeat center center /
+          cover;
+      }
+
+      .purchase-content-img-2 {
+        order: initial;
+      }
+    }
+  }
+
+  // Contact
+  #contact {
+    margin-top: 3.6rem;
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+@media (max-height: 500px) {
+  // Header
+  #header {
+    height: 95vh;
+    .navbar {
+      &-brand {
+        font-size: 1rem;
+      }
+      ul {
+        li {
+          a {
+            font-size: 0.8rem;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .header-content {
+      top: 55%;
+
+      h5 {
+        font-size: 1rem;
+      }
+
+      h1 {
+        &:first-of-type {
+          font-weight: 300;
+          font-size: 2.4rem;
+        }
+        &:last-of-type {
+          margin-top: -0.6rem;
+        }
+
+        &:last-of-type span {
+          font-size: 2.4rem;
+        }
+      }
+
+      button {
+        border-radius: 0;
+        border: #eee 2px solid;
+        font-size: 1rem;
+        font-weight: 300;
+        margin-top: 0.2rem !important;
+      }
+    }
+  }
+
+  // Homes
+  #homesForSale {
+    margin-top: 2.2rem;
+
+    .home-cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 1rem;
+    }
+  }
+
+  // Profile
+  #profile {
+    margin-top: 4.4rem;
+  }
+
+  // Testimonials
+  #testimonials {
+    margin-top: 3.6rem;
+
+    h4 {
+      font-size: 1.4rem;
+    }
+
+    h3 {
+      font-size: 2.8rem;
+    }
+
+    .carousel-content-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: space-between;
+      grid-gap: 2rem;
+    }
+  }
+  // Purchase
+  #purchase {
+    background: $color-secondary;
+    margin-top: 3.6rem;
+
+    .purchase-content {
+      display: grid;
+      grid-template-columns: none;
+      grid-template-rows: 1fr 1fr;
+
+      .purchase-content-img-1 {
+        background: url("../../imgs/purchase.png") no-repeat center center /
+          cover;
+      }
+
+      .purchase-content-img-2 {
+        order: initial;
+      }
+    }
+  }
+
+  // Contact
+  #contact {
+    margin-top: 3.6rem;
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+    }
+
+    .contact-info {
+      margin-top: 3.6rem;
+      i {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: "Raleway", sans-serif;
+
+        &:last-of-type {
+          margin-top: -0.6rem;
+        }
+      }
+    }
+  }
+}
