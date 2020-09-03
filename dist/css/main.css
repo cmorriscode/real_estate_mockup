@@ -10821,10 +10821,17 @@ a.text-dark:hover, a.text-dark:focus {
   display: inline-block;
 }
 
+.underline-white {
+  width: 5rem;
+  border-bottom: 6px solid #eee;
+  display: inline-block;
+}
+
 body {
-  padding: 2rem;
   font-family: "Roboto Condensed", sans-serif;
   font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 #header {
@@ -10832,6 +10839,8 @@ body {
   background: url("../../imgs/intro-bg.png") center center/cover;
   -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%);
           clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%);
+  position: relative;
+  width: 100%;
 }
 
 #header .navbar-brand {
@@ -10845,6 +10854,11 @@ body {
 
 #header .header-content {
   font-family: "Roboto Condensed", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 #header .header-content h5 {
@@ -10865,6 +10879,111 @@ body {
 }
 
 #header .header-content button {
+  border-radius: 0;
+  border: #eee 2px solid;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#homesForSale {
+  margin-top: 4rem;
+}
+
+#homesForSale h4 {
+  font-size: 1.4rem;
+}
+
+#homesForSale h3 {
+  font-size: 2.8rem;
+}
+
+#homesForSale .home-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+#homesForSale .card {
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 0;
+}
+
+#homesForSale .card p:first-of-type {
+  font-weight: 500;
+}
+
+#homesForSale .card p:last-of-type {
+  font-size: 2rem;
+  margin-top: -0.8rem;
+}
+
+#homesForSale .card .house-info {
+  margin-top: -0.4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+#homesForSale .card .house-info img {
+  height: 18px;
+  width: 26px;
+  margin-right: 0.6rem;
+}
+
+#homesForSale .card .house-info div p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  -webkit-transform: translateY(0.4rem);
+          transform: translateY(0.4rem);
+}
+
+#homesForSale .card a {
+  color: #3e339c;
+  text-decoration: underline;
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+#profile {
+  margin-top: 10rem;
+  background: #3e339c;
+  height: 600px;
+}
+
+#profile .profile-img {
+  position: relative;
+}
+
+#profile .profile-img img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translateY(-75px);
+          transform: translateY(-75px);
+  height: 675px;
+}
+
+#profile .profile-content .content h2 {
+  font-size: 2.6rem;
+}
+
+#profile .profile-content .content p:first-of-type {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+#profile .profile-content .content p:last-of-type {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+#profile .profile-content .content button {
   border-radius: 0;
   border: #eee 2px solid;
   font-size: 1.5rem;

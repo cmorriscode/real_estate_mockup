@@ -2,6 +2,8 @@
   height: 90vh;
   background: url("../../imgs/intro-bg.png") center center / cover;
   clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%);
+  position: relative;
+  width: 100%;
 
   .navbar {
     &-brand {
@@ -20,6 +22,11 @@
 
   .header-content {
     font-family: "Roboto Condensed", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     h5 {
       font-size: 1.4rem;
     }

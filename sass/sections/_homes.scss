@@ -1,0 +1,60 @@
+#homesForSale {
+  margin-top: 4rem;
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 2.8rem;
+  }
+
+  .home-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .card {
+    font-family: "Roboto Condensed", sans-serif;
+    border-radius: 0;
+
+    p {
+      &:first-of-type {
+        font-weight: 500;
+      }
+      &:last-of-type {
+        font-size: 2rem;
+        margin-top: -0.8rem;
+      }
+    }
+
+    .house-info {
+      margin-top: -0.4rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+      img {
+        height: 18px;
+        width: 26px;
+        margin-right: 0.6rem;
+      }
+
+      div {
+        p {
+          font-size: 1.4rem;
+          font-weight: 700;
+          transform: translateY(0.4rem);
+        }
+      }
+    }
+
+    a {
+      color: $color-primary;
+      text-decoration: underline;
+      font-size: 1.1rem;
+      font-weight: 700;
+      font-family: "Raleway", sans-serif;
+    }
+  }
+}
