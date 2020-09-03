@@ -1,0 +1,34 @@
+#purchase {
+  background: $color-secondary;
+  margin-top: 3.6rem;
+
+  .purchase-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .purchase-content-img-1 {
+      background: url("../../imgs/purchase.png") no-repeat center right / cover;
+    }
+    .purchase-content-img-2 {
+      background: url("../../imgs/sell.png") no-repeat center right / cover;
+      order: 2;
+    }
+    .purchase-content-text {
+      h3 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-weight: 600;
+        font-family: "Raleway", sans-serif;
+      }
+
+      button {
+        border-radius: 0;
+        border: #111 2px solid;
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+    }
+  }
+}

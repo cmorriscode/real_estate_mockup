@@ -1,0 +1,29 @@
+#gallery {
+  .gallery-display {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
+    grid-gap: 0.2rem;
+
+    .img {
+      width: 100%;
+      height: 260px;
+
+      &-1 {
+        background: url("../../imgs/homes1.png") no-repeat center center / cover;
+      }
+      &-2 {
+        background: url("../../imgs/homes2.png") no-repeat center center / cover;
+      }
+      &-3 {
+        background: url("../../imgs/homes3.png") no-repeat center center / cover;
+      }
+      &-4 {
+        background: url("../../imgs/homes4.png") no-repeat center center / cover;
+      }
+      &-5 {
+        background: url("../../imgs/homes5.png") no-repeat center center / cover;
+      }
+    }
+  }
+}

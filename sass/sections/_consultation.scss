@@ -1,0 +1,47 @@
+#consultation {
+  margin-top: 3.6rem;
+  background: url("../../imgs/contact-bg.png") no-repeat center center / cover;
+  padding-bottom: 3.6rem;
+
+  // .container {
+  //   max-width: 700px;
+
+  .container {
+    // max-width: 700px;
+  }
+  form {
+    max-width: 700px;
+    margin: 0 auto;
+
+    .form-row {
+      margin: 0 auto;
+    }
+    input {
+      // width: 80%;
+    }
+    input,
+    textarea {
+      border-radius: 0;
+      border: 1px black solid;
+      padding: 0.6rem 1rem;
+
+      &:placeholder-shown {
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: black;
+        font-family: "Roboto Condensed", sans-serif;
+      }
+    }
+
+    textarea {
+    }
+
+    .btn {
+      border-radius: 0;
+      // border: #111 2px solid;
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+    // }
+  }
+}
