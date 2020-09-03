@@ -1,0 +1,48 @@
+#header {
+  height: 90vh;
+  background: url("../../imgs/intro-bg.png") center center / cover;
+  clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%);
+
+  .navbar {
+    &-brand {
+      font-size: 2.2rem;
+    }
+
+    ul {
+      li {
+        a {
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .header-content {
+    font-family: "Roboto Condensed", sans-serif;
+    h5 {
+      font-size: 1.4rem;
+    }
+
+    h1 {
+      &:first-of-type {
+        font-weight: 300;
+        font-size: 4.2rem;
+      }
+      &:last-of-type {
+        margin-top: -0.6rem;
+      }
+
+      &:last-of-type span {
+        font-size: 4.4rem;
+      }
+    }
+
+    button {
+      border-radius: 0;
+      border: #eee 2px solid;
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+  }
+}

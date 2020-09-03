@@ -1,0 +1,21 @@
+.bold {
+  font-weight: 700;
+}
+
+// Line spacing
+.ls-1 {
+  letter-spacing: 0.1rem;
+}
+.ls-2 {
+  letter-spacing: 0.2rem;
+}
+.ls-3 {
+  letter-spacing: 0.3rem;
+}
+
+// underline
+.underline {
+  width: 5rem;
+  border-bottom: 6px solid #111;
+  display: inline-block;
+}

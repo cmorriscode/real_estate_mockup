@@ -3,13 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./dist/css/main.css" />
     <title>
       Alden Casas | Greater Las Vegas Real Estate | Find Your Dream Home
     </title>
   </head>
   <body>
-    <header></header>
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg py-5 navbar-dark">
+          <a href="#home" class="navbar-brand text-white py-3 ls-2"
+            ><span class="bold">ALDEN</span> CASAS</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapse-nav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="collapse-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mr-4">
+                <a href="#about" class="nav-link text-white ls-1"
+                  >ABOUT ALDEN</a
+                >
+              </li>
+              <li class="nav-item mr-4">
+                <a href="#buyOrSell" class="nav-link text-white ls-1"
+                  >BUY OR SELL</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link text-white ls-1"
+                  >CONTACT ME</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div
+          class="header-content text-white text-center justify-content-center pt-5"
+        >
+          <h5 class="pt-5 ls-1">GREATER LAS VEGAS REAL ESTATE</h5>
+          <h1 class="h6 pt-2 ls-2">FIND YOUR</h1>
+          <h1 class="h1"><span class="bold h1 ls-2">DREAM HOME</span></h1>
+          <button
+            class="btn btn-lg btn-white btn-outline-info px-5 ls-2 py-2 mt-4"
+          >
+            CONTACT ME
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="homesForSale" class="pt-5">
+        <div class="container text-center">
+          <h4 class="text-muted h6 ls-1">
+            LAS VEGAS, HENDERSON, SUMMERLIN + MORE
+          </h4>
+          <h3 class="h2 ls-1 mt-3">
+            <span class="bold">FEATURED</span> HOMES FOR SALE
+          </h3>
+          <span class="underline pt-4"></span>
+
+          <div class="home-cards">
+            <div class="card text-center" style="width: 400px">
+              <img src="./imgs/ft-homes1.png" alt="" " class="card-img-top" />
+              <div class="card-body">
+                <p class="bold">123 MAIN ST. LAS VEGAS, NV 89147</span></p>
+                <p class="bold">$800,150</span></p>
+                <div class="d-flex justify-content-center">
+                  <div class="bed d-flex">
+                    <img src="./imgs/bed-solid.png" alt="">
+                    <p class="bold">4</p>
+                  </div>
+                  <div class="bath d-flex">
+                    <img src="./imgs/bath-solid.png" alt="">
+                    <p class="bold">3</p>
+                  </div>
+                  <div class="home d-flex">
+                    <img src="./imgs/home-solid.png" alt="">
+                    <p class="bold">2,504 SqFt</p>
+                  </div>
+                </div>
+                <a href="#">Schedule a Showing</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
