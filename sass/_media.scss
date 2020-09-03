@@ -158,7 +158,7 @@
         }
       }
 
-      button {
+      a {
         border-radius: 0;
         border: #eee 2px solid;
         font-size: 1rem;
@@ -220,33 +220,6 @@
 
       .purchase-content-img-2 {
         order: initial;
-      }
-    }
-  }
-
-  // Contact
-  #contact {
-    margin-top: 3.6rem;
-
-    .container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      justify-content: center;
-    }
-
-    .contact-info {
-      margin-top: 3.6rem;
-      i {
-        font-size: 2rem;
-      }
-      p {
-        font-size: 1rem;
-        font-weight: 600;
-        font-family: "Raleway", sans-serif;
-
-        &:last-of-type {
-          margin-top: -0.6rem;
-        }
       }
     }
   }
