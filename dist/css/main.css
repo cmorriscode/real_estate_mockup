@@ -11294,6 +11294,24 @@ body {
   #profile {
     margin-top: 4.4rem;
   }
+  #profile .profile-content .content h2 {
+    font-size: 2.2rem;
+  }
+  #profile .profile-content .content p:first-of-type {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  #profile .profile-content .content p:last-of-type {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+  #profile .profile-content .content a {
+    border-radius: 0;
+    border: #eee 2px solid;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
   #testimonials {
     margin-top: 3.6rem;
   }

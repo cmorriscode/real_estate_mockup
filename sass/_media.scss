@@ -66,6 +66,32 @@
   // Profile
   #profile {
     margin-top: 4.4rem;
+
+    .profile-content {
+      .content {
+        h2 {
+          font-size: 2.2rem;
+        }
+        p {
+          &:first-of-type {
+            font-size: 1rem;
+            font-weight: 400;
+            font-family: "Roboto Condensed", sans-serif;
+          }
+          &:last-of-type {
+            font-family: "Raleway", sans-serif;
+            font-weight: 500;
+          }
+        }
+
+        a {
+          border-radius: 0;
+          border: #eee 2px solid;
+          font-size: 1.5rem;
+          font-weight: 300;
+        }
+      }
+    }
   }
 
   // Testimonials
