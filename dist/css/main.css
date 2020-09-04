@@ -10916,7 +10916,6 @@ body {
 #homesForSale .card {
   font-family: "Roboto Condensed", sans-serif;
   border-radius: 0;
-  overflow: hidden;
 }
 
 #homesForSale .card p:first-of-type {
