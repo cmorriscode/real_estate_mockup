@@ -1,6 +1,5 @@
 #homesForSale {
   margin-top: 3.6rem;
-  overflow: hidden;
 
   h4 {
     font-size: 1.4rem;
@@ -19,6 +18,7 @@
   .card {
     font-family: "Roboto Condensed", sans-serif;
     border-radius: 0;
+    overflow: hidden;
 
     p {
       &:first-of-type {
