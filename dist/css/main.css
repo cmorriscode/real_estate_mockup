@@ -10895,6 +10895,7 @@ body {
 
 #homesForSale {
   margin-top: 3.6rem;
+  overflow: hidden;
 }
 
 #homesForSale h4 {
@@ -10976,6 +10977,10 @@ body {
   height: 675px;
 }
 
+#profile .profile-content {
+  overflow: hidden;
+}
+
 #profile .profile-content .content h2 {
   font-size: 2.6rem;
 }
@@ -11043,6 +11048,7 @@ body {
 #purchase {
   background: #d3dce2;
   margin-top: 3.6rem;
+  overflow: hidden;
 }
 
 #purchase .purchase-content {
@@ -11081,6 +11087,7 @@ body {
 
 #contact {
   margin-top: 3.6rem;
+  overflow: hidden;
 }
 
 #contact .container {
